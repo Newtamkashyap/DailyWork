@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="Generator" content="EditPlus®">
+  <meta name="Author" content="">
+  <meta name="Keywords" content="">
+  <meta name="Description" content="">
+  <title>Attributes and Images</title>
+<link rel="icon" href="omsent.jpg">
+ </head>
+ <body background-color="hot pink">
+  <h1 align="center">Here we will see attributes and images</h1>
+<h2 onclick="alert('hello world')">Click me</h2>
+<h1 id="heading1"onmouseover="heading1.innerText='B.tech eng'" onmouseout="heading1.innerText='Newtam Kashyap'">Button</h1>
+<!--here we are using onmouseover and onmouseout attributes for action-->
+<!--Try to give meaninful name to ID if it is related to body then give body ,if realted to head type head/heading etc..so that we can understand or find easily -->
+<img src="omsent.jpg" alt="no image">
+<img src="https://th.bing.com/th/id/OIG.lVXjWwlHyIo4QdjnC1YE" height="400px" width="400px" alt="no image">
+<!--for displaying images(#downloded image) we dont need any internet connection but if we are giving the image address directly from google for that we need internet connection to display-->
+<!-- images will generally display side by side because image tag is inline tag--> 
+
+ </body>
+</html>
