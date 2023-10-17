@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="Generator" content="EditPlus®">
+  <meta name="Author" content="">
+  <meta name="Keywords" content="">
+  <meta name="Description" content="">
+  <title>List tags</title>
+ </head>
+ <body>
+  <h1 align="center">order list</h1>
+<h1 font size="small" color="green">hello</h1>
+<!--by default it take numbering 1,2,3-->
+<ol>
+<li>list is used to print the points</li>
+<li>both are paired tag and blocked level tag "ol" and "li" </li>
+<li>relation is parent child </li>
+</ol>
+ </body>
+</html>
