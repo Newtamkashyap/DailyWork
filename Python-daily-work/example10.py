@@ -10,8 +10,20 @@ print(fee,sep="&")
 
 
 #OR we can print in one line by using sepretion(sep)
+#by default it will take new line.value is \n(backslash n.
 
 print(Name,rollno,Class,fee,sep="&")
+
+
+
+
+print(Name,rollno,Class,fee,sep="\n") #newline
+print(Name,rollno,Class,fee,sep="\t") #horizontal tab space
+print(Name,rollno,Class,fee,sep="\v") #vertical tab pace
+print(Name,rollno,Class,fee,sep="\\")
+print(Name,rollno,Class,fee,sep="\"")
+print(Name,rollno,Class,fee,sep="\'")
+print(Name,rollno,Class,fee,sep="\b")#backspace
 
 
 
