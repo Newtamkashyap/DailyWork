@@ -20,6 +20,19 @@ n9=n7*n8
 print(n9)
 print(type(n9))
 
+a=2
+b=True
+c=(a*b)
+print(c)
+print(type(c))
+
+a1=2
+b2=False
+c1=(a1*b2)
+print(c1)
+print(type(c1))
+
+
 #string(cannot multiply)
 n10="hello"
 n11="World"
