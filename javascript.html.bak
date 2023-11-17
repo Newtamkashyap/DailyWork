@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="Generator" content="EditPlus®">
+  <meta name="Author" content="">
+  <meta name="Keywords" content="">
+  <meta name="Description" content="">
+  <title>Ist program with JAWASCRIPT</title>
+<script>
+ 
+</script>
+ </head>
+ <body>
+  <h2>demo on javascript</h2>
+<button onclick="alert('hey ,you pused me')">Push Me</button>
+<button onclick="alert('hey ,you pull me')">Pull Me</button>
+<button ondblclick="alert(double click me')">Click Me</button>
+ </body>
+</html>
