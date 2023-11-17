@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="Generator" content="EditPlus®">
+  <meta name="Author" content="">
+  <meta name="Keywords" content="">
+  <meta name="Description" content="">
+  <title>Document</title>
+ </head>
+ <body>
+  <script>
+document.writeln("HTML")
+document.writeln("CSS")
+document.writeln("JAVASCRIPT")
+//backtick is using for diplay multiple lines 
+//single/double quotes are not allowed
+console.log(`hello
+world here we
+are learning
+javascript`)
+//inside script tag we can write HTML tags but we have to follow some protocol otherwise it will give you ERRORS, for example
+//<h2>hello world</h2>  ------->ERROR
+"<h2>hello wolrd</h2>"//it will execute but not display so we have to follow some rules to write HTML tags inside script tag.
+document.write("<h2>hello world</h2>")
+</script>
+
+<script>
+//document.write("<form action="login.php">")----->syntax error due to quotes ,so it's better to use  single quotes inside double or double quotes inside single vise versa
+//basically homogenous type os quotes are not allowed
+document.write("<form action='login.php'>")//allowed nd execute
+
+//document.write("<input type="text" id="xyz"><br>")------->syntax error due to quotations
+document.write("<input type='text' id='xyz'><br>")//allowed becj inside double main quotes we are using single single quotations.
+document.write("<label>password</label><br>")
+document.write("<button>LOGIN</button>")
+</script>
+ </body>
+</html>
