@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="Generator" content="EditPlus®">
+  <meta name="Author" content="">
+  <meta name="Keywords" content="">
+  <meta name="Description" content="">
+  <title>Document</title>
+<script>
+document.writeln("Apple","mango","banana");
+//writeln() --->break a line like space between two string
+document.writeln("APPLE","mango","banana");
+console.log("hello")
+//we can also write plus instead of comma
+document.writeln("APPLE"+"mango"+"banana");
+document.writeln("APPLE"+"mango"+"banana);
+</script>
+ </head>
+ <body>
+  <h2>DEMO</h2>
+<h2>DEMO</h2>
+<h2>DEMO</h2>
+<h2>DEMO</h2>
+<h2>DEMO</h2>
+<h2>DEMO</h2>
+
+ </body>
+</html>
