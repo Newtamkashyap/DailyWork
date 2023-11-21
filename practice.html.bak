@@ -6,7 +6,7 @@
   <meta name="Author" content="">
   <meta name="Keywords" content="">
   <meta name="Description" content="">
-  <title>Title tag is used for title the webpage</title>
+  <title> tag is used for title the webpage</title>
 <link>
 <!--link tag is used for 2 purpose one is to link the icon for web pages and another used for link the external files like css,js,bootstrap-->
  </head>
@@ -26,7 +26,7 @@
  comment 
 multiple 
 lines also -->
-<p> In First day class we will discuss about some tags like paragraph. </p>
+<p>                In First day class we will discuss about some tags like paragraph. </p>
    <p> paragraph is paired tag/full tags also block level tag. </p>
    <p> 60% of tags are paired tags,and rest of the 40% are unpaired tags and self closed tags(means only open tag).</p><br>
 <!--break tag break the line-->
@@ -46,8 +46,10 @@ lines also -->
 <p>sup tag is used for <sup>print data </sup>above the actual line</p>
 <span>span tag is used for small para</span>
 <em>this tag and i tag both are same ,used for itallic writing</em>
-<pre> formatting text what we typed in the program,that as it is print on web page
-pre tag are paired tag and block level tag.
+<pre>     formatting text what we typed in the program,that as it is print on web page
+                      pre tag are paired
+ tag and block
+ level tag.
 </pre>
 
 <h1>now we will see nested tag</h1>
@@ -57,6 +59,7 @@ pre tag are paired tag and block level tag.
     </u>
   </em>
 </h4>
+<h1>helowolrf</h1>
 
  </body>
 </html>

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="Generator" content="EditPlus®">
+  <meta name="Author" content="">
+  <meta name="Keywords" content="">
+  <meta name="Description" content="">
+  <title>ordered and unordered list</title>
+ </head>
+ <body>
+  <h3>order list</h3> 
+<ol>
+<li>data1</li>
+<li>data2</li>
+<li>data3</li>
+</ol>
+<hr>
+
+<!--without type attribtes by default it will take numeric 1,2,3....etc)-->
+<!--type will decide to start with alphabet numberic roman small letter capital letter-->
+
+<ol type="1">
+<li>data1</li>
+<li>data2</li>
+<li>data3</li>
+
+<hr>
+<ol type="1" reversed>
+<li>data1</li>
+<li>data2</li>
+<li>data3</li>
+</ol>
+<hr>
+<hr>
+<ol type="1" reversed>
+<li>data1</li>
+<li>data2</li>
+<li>data3</li>
+</ol>
+<hr>
+<hr>
+<ol type="A">
+<li>data1</li>
+<li>data2</li>
+<li>data3</li>
+</ol>
+<hr>
+<hr>
+<ol type="1" start="100">
+<li>data1</li>
+<li>data2</li>
+<li>data3</li>
+</ol>
+<hr>
+<hr>
+<ol type="A" start="52">
+<!--here it will start from A but 52 meaning is that in alphabet 26 letter +26 =52 so ,A will be same but 52 will convert into z)-->
+<li>data1</li>
+<li>data2</li>
+<li>data3</li>
+</ol>
+<hr color="red" width="50%">
+ </body>
+</html>

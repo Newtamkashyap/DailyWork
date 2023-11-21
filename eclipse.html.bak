@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="Generator" content="EditPlus®">
+  <meta name="Author" content="">
+  <meta name="Keywords" content="">
+  <meta name="Description" content="">
+  <title>Lunar Eclipse</title>
+<style>
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+}
+body{
+background-color:#ffe4d6;
+width:100vw;
+height:100vh;
+/*display:grid;
+place-item:center;*/
+display:flex;
+justify-content:center;
+align-items:center;
+}
+.universe{
+width:40vw;
+aspect-ratio:1;
+background-color:#ffbb5c;
+display:flex;
+justify-content:center;
+align-items:center;
+border-radius:10px;
+animation: skychange 10s ease-in-out infinite;
+}
+
+@keyframes skychange{
+
+0%{
+background-color:red;
+}
+
+25%{
+background-color:green;
+}
+
+
+50%{
+background-color:black;
+box-shadow:rbga(225,255,255,0.15) 0px 48px 100px 0px;
+}
+
+
+75%{
+background-color:cyan;
+}
+
+100%{
+background-color:white;
+}
+.sun{
+width:18vw;
+/*height:0vh;*/
+aspect-ratio:1;
+background-color:red;
+border-radius:50%;
+position:realtive;
+
+&::after{
+content:"";
+position:absolute;
+/*top:0;
+left:0;*/
+width:inherit;
+aspect-ratio:1;
+border-radius:50%;
+/*here we can use inherit boared also that will automatic or that will inherit from sun class.*/
+background-color:#000;
+animation: moonwalk 10s ease-in-out infinite;
+}
+
+}
+@keyframes moonwalk {
+0% {
+translate: 100%;
+scale:1;
+}
+50% {
+translate: 0%;
+scale:0.9;
+}
+100% {
+translate: -100%;
+scale:0.95;
+}
+
+
+
+</style>
+ </head>
+ <body>
+  <div class="universe">
+<div class="sun">
+</div>
+</div>
+
+ </body>
+</html>

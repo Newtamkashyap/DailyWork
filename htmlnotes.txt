@@ -1,0 +1,7 @@
+1) vw-means veiwport width of the full screen
+2) vh-veiwport height of the full screen
+3) ::after/before inserts something after/before the content of each selected element(s)
+4) ease-in0out --if anything is moving from one place to another it will stop for a wile in between'
+5) The @keyframes rule specifies the animation code
+6) What is 0 to 100 keyframes in CSS?
+0% is the beginning of the animation, 100% is when the animation is complete
