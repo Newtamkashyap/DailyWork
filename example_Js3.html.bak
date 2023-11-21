@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="Generator" content="EditPlus®">
+  <meta name="Author" content="">
+  <meta name="Keywords" content="">
+  <meta name="Description" content="">
+  <title>Document</title>
+ </head>
+ <body>
+  <h2>Demo on var and let</h2>
+<script>
+var n=100; //decln first time
+document.write(n, "<br>");
+var n="Rama Rao" // modifying
+document.write("re-constructing with string type or re defining from n=100 to------------",n, "<br>")
+
+x=10;//here first we use than declaration--that is know as hosting
+document.write(x)
+var x; //hosting
+
+y="Mango"
+document.write(y,"<br>")
+var y;
+/*let y;
+Uncaught ReferenceError: Cannot access 'y' before initialization*/
+
+</script>
+ </body>
+</html>
