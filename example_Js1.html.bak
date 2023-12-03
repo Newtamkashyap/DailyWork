@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="Generator" content="EditPlus®">
+  <meta name="Author" content="">
+  <meta name="Keywords" content="">
+  <meta name="Description" content="">
+  <title>Document</title>
+ </head>
+ <body>
+  <script>
+/* const --decleation and modification/updatation not allowed .
+Alwz prefered capital letter*/
+const PI=3.14;
+document.writeln(PI, "<br>")
+/*PI=3.1;--------modification is not allowed
+document.write(PI)----------it will give error*/
+var a= 10;
+document.write(a,"<br>")// <br> html tag will break line 
+a=100;
+document.write(a)
+
+/*int x=100'
+document.write(x) //Unexpected identifier 'x' because here we can not write like int string or any data type ,simply we have to write var let and const only*/
+
+/*string name="newtam"
+document.write(name)	//Unexpected identifier 'name' because here we can not write like int string or any data type ,simply we have to write var let and const only*/
+
+</script>
+ </body>
+</html>

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="Generator" content="EditPlus®">
+  <meta name="Author" content="">
+  <meta name="Keywords" content="">
+  <meta name="Description" content="">
+  <title>Document</title>
+ </head>
+ <body>
+ <script>
+let A=65;
+let Z=90;
+
+for(let A=65; A<=Z; A++){  //initation,condition,stepping.
+document.write("ASCII value of A to Z <br>")
+document.write(A,"<br>")
+}
+
+</script>
+ </body>
+</html>

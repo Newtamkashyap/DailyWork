@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="Generator" content="EditPlus®">
+  <meta name="Author" content="">
+  <meta name="Keywords" content="">
+  <meta name="Description" content="">
+  <title>Internal Javascript</title>
+<script type="text/javascript">
+/* here in script tag we can write type also that will not cnfuse that which script lang is using like javascript,tscript,jscript,typescript(not mandatory just we have clear for browser only)*/
+/*here also we can comment like css backslah star*/
+document.writeln("message")
+/*write() function write code without breaking line*/
+</script>
+ </head>
+ <body>
+  <!--we can write script anywhere like;inside body ,title,head in stating or in last--anywhere-->
+<script>
+document.write("msg from body section we can write anywhere ans also semicolon is optional at last");
+</script>
+ </body>
+</html>

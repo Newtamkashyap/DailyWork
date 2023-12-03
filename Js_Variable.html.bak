@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="Generator" content="EditPlus®">
+  <meta name="Author" content="">
+  <meta name="Keywords" content="">
+  <meta name="Description" content="">
+  <title>Document</title>
+ </head>
+ <body>
+  <script>
+/*In javascript only 3 way to declear varaible 1)var  2)let  3)const.
+
+     var a; //varaible delceration
+     a=100; //assigning or assignment
+     var a=100  //initialiazation
+same for Let and const*/
+
+var a;  //decleration
+document.writeln(a) //output will be undefined becj we didn't assign any value in variable.
+a=100; //assiging
+var b=10; //initialization
+document.writeln(a)  //output-100
+document.writeln(b)  //output-10
+
+let x;  //var decleration
+document.writeln(x)  //output-undefined
+x=200; //assigning
+document.writeln(x)
+let y=20;  //initialization
+document.write(y)
+
+x=50000;
+y=300000;
+document.writeln(y)
+document.writeln(x)
+
+</script>
+
+ </body>
+</html>

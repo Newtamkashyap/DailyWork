@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+ <title>Document</title>
+<link rel="icon" href="images/omsent.jpg">
+<link rel="style" href="myscript.css">
+<script src="myscript.js"></script>
+<style>
+p,button{
+background-color:red;
+color:yellow;
+}
+</style>
+
+<script>
+demo1()
+demo2()
+/*calling demo1 fun and demo2 function*/
+</script>
+
+ </head>
+ <body>
+  <p> In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate </p>
+<button onclick="demo2('calling 2nd times')">click me</button>
+ </body>
+</html>

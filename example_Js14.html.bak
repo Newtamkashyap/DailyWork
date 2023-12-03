@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="Generator" content="EditPlus®">
+  <meta name="Author" content="">
+  <meta name="Keywords" content="">
+  <meta name="Description" content="">
+  <title>Document</title>
+ </head>
+ <body>
+  <h3> Demo on switch case</h3>
+<script>
+// Switch support conditions
+
+//first way to print negative or positive numbers
+/*let a= 1;
+if(a>=10){
+document.write("positive number<br>")
+}
+else{
+document.write("negative number<br>")
+}*/
+
+//2nd way by using switch case
+let n=10;
+switch(n>=10){
+case true:
+document.write("positive number")
+document.write("negative number")
+}
+
+</script>
+ </body>
+</html>

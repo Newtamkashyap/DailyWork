@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="Generator" content="EditPlus®">
+  <meta name="Author" content="">
+  <meta name="Keywords" content="">
+  <meta name="Description" content="">
+  <title>Div</title>
+ </head>
+ <body>
+  <div>
+<h1>apple</h1>
+<h2>mango</h2>
+<h3>orange</h3>
+</div>
+<HR>
+
+<div>
+<ul>
+<li>fruits name</li>
+<ul>
+<li>Apple</li>
+<li>mango</li>
+<li>orange</li>
+</ul>
+</ul>
+</div>
+<hr>
+
+<div style="color:yellow;background-color:red;border-radius:13px;font-size:forte;width:400px;text-align:center;display-inline:block;padding:30px;">
+<h2>Apple</h2>
+<h2>mango</h2>
+<h2>orange</h2>
+<h2>Apple</h2>
+<h2>mango</h2>
+<h2>orange</h2>
+</div>
+<hr>
+<hr>
+<div style="border-radius:25px; background-color:grey; margin:90px;">
+<div style="border-radius:20px; box-shadow:2px 2px 30px grey; height:400px; width:300px; text-align:center; display:inline-block; margin:15px; background-color:white;">
+<img src="images/barbie.webp" width="200px" height="200px"alt="no image" style="border-radius:50%">
+<h2>Name:Barbie girl</h2>
+<p>phone:9876543211</p>
+<em>EmailId:nky3037@gmail.com</em>
+<strong>DOB:12/02/2022</strong>
+</div>
+
+<div style="border-radius:20px; box-shadow:2px 2px 30px grey; height:400px; width:300px; text-align:center;  display:inline-block; margin:15px; background-color:white;">
+<img src="images/virat.jpg" width="200px" height="200px"alt="no image" style="border-radius:50%">
+<h2>Name:virat kolih</h2>
+<p>phone:9876543211</p>
+<em>EmailId:yjk3037@gmail.com</em>
+<strong>DOB:10/02/2022</strong>
+</div>
+
+<div style="border-radius:20px; box-shadow:2px 2px 30px grey; height:400px; width:300px; text-align:center;  display:inline-block; margin:15px;background-color:white;">
+<img src="images/Anushka.jpg" width="200px" height="200px"alt="no image" style="border-radius:50%">
+<h2>Name:Anushka sharma</h2>
+<p>phone:9876543211</p>
+<em>EmailId:jjj3037@gmail.com</em>
+<strong>DOB:08/02/2022</strong>
+</div>
+
+<div style="border-radius:20px; box-shadow:2px 2px 30px grey; height:400px; width:300px; text-align:center;  display:inline-block; margin:15px; background-color:white;">
+<img src="images/salman.jpg" width="200px" height="200px"alt="no image" style="border-radius:50%">
+<h2>Name:Salman khan</h2>
+<p>phone:9876543211</p>
+<em>EmailId:web3037@gmail.com</em>
+<strong>DOB:22/02/2022</strong>
+</div>
+</div>
+ </body>
+</html>

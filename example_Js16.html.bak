@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="Generator" content="EditPlus®">
+  <meta name="Author" content="">
+  <meta name="Keywords" content="">
+  <meta name="Description" content="">
+  <title>Document</title>
+ </head>
+ <body>
+  <h3>Demo on While loop</h3>
+<script>
+//print 1 to 20 numbers
+let i = 1;  //init
+while (i<=20) { //condition
+
+document.write(i);
+}
+i++; //updatation or increment*/
+
+var input = 1;
+while (input <= 10) {
+ console.log(input);
+ input++;
+}
+</script>
+ </body>
+</html>

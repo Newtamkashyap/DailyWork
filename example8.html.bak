@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="Generator" content="EditPlus®">
+  <meta name="Author" content="">
+  <meta name="Keywords" content="">
+  <meta name="Description" content="">
+  <title>Unorderd List</title>
+<!--in unordered list point will come in bullets as we can see in output-->
+ </head>
+ <body>
+<ul>
+
+<h1><li>mobile</li></h1>
+<ul type="square">
+<li>oopo</li>
+<li>1+</li>
+<li>vivo</li>
+<li>samsung</li>
+</ul>
+
+
+<h1><li>B.tech</li></h1>
+<ul type="circle">
+<li>oopo</li>
+<li>1+</li>
+<li>vivo</li>
+<li>samsung</li>
+</ul>
+</ul>
+
+
+
+
+
+</ul>
+ </body>
+</html>

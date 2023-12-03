@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="Generator" content="EditPlus®">
+  <meta name="Author" content="">
+  <meta name="Keywords" content="">
+  <meta name="Description" content="">
+  <title>Fieldset/legend</title>
+<style>
+img{
+width:300px;
+height:300px;
+border-radius:15px;
+
+}
+fieldset{
+border-radius:15px;
+margin:auto;
+border:10px solid blue;
+text-align:center;
+border-radius:25px;
+}
+legend{
+font-size:50px;
+font-family:forte;
+color:red;
+}
+</style>
+ </head>
+ <body>
+ <fieldset>
+<legend> My Gallary </legend>
+<img src="images\omsent.jpg" alt="no" title=" a large body of Water surrounded by lush green tree">
+<img src="image2.avif" alt="no image" title=" white wooden shelves">
+<img src="image3.avif" alt="no image" title="sun light in the middle of forest">
+<img src="image4.avif" alt="no image" title="body of water under trees">
+<img src="image5.avif" alt="no image" title="wide road towards mountain during daytime">
+<img src="image6.avif" alt="no image" title="sunflower field">
+<img src="image7.avif" alt="no image" title="the sun is setting over a filed of wildflowers">
+<img src="image8.webp" alt="no image" title="Hands drawing fresh">
+<img src="image9.webp" alt="no image" title="hapy excited face">
+</fieldset>
+ </body>
+</html>

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="Generator" content="EditPlus®">
+  <meta name="Author" content="">
+  <meta name="Keywords" content="">
+  <meta name="Description" content="">
+  <title>Document</title>
+ </head>
+ <body>
+<h2>Demo on Non-primitive data type</h2>
+ <script>
+var st=new String();//with blank data
+const d=new Date();//by default current value date time will display.
+let a=[];
+document.write("st value---->",st,"<br>")
+document.write("date---->",d,"<br>")
+document.write(a)
+
+var st1=new String("apple");//with blank data
+const d1=new Date(2023,nov,14,16,45,pm);//here we can display own time
+let a1=[10,20];
+document.write("st value---->",st1,"<br>")
+document.write("date---->",d1,"<br>")
+document.write(a1)
+</script>
+ </body>
+</html>

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="Generator" content="EditPlus®">
+  <meta name="Author" content="">
+  <meta name="Keywords" content="">
+  <meta name="Description" content="">
+  <title>Document</title>
+ </head>
+ <body>
+<h2> DEMO on primitive data type</h2>
+  <script>
+var a=123;//number
+var b=34.34;//number
+let c="ram"//string
+let d='n'//string
+const E=true;//boolean
+let f;//undefined
+var g=null;//object
+document.write(a,"-->",typeof a,"<br>")
+document.write(b,"-->",typeof b,"<br>")
+document.write(c,"-->",typeof c,"<br>")
+document.write(d,"-->",typeof d,"<br>")
+document.write(E,"-->",typeof e,"<br>")
+document.write(f,"-->",typeof f,"<br>")
+document.write(g,"-->",typeof g,"<br>")
+
+
+
+</script>
+ </body>
+</html>

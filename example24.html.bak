@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="Generator" content="EditPlus®">
+  <meta name="Author" content="">
+  <meta name="Keywords" content="">
+  <meta name="Description" content="">
+  <title>CSS SELECTORS-Universal selector</title>
+<style>
+border:2px solid red;
+</style>
+ </head>
+ <body>
+  <h2>Demo on universal selector</h1>
+<h1>Hello</h1>
+<h2>World</h2>
+<div>Green Banana</div>
+<ul>
+<li>HTML</li>
+<li>CSS</li>
+<li>JAVASCRIPT</li>
+<li>BOOTSTRAP</li>
+</ul>
+ </body>
+</html>
