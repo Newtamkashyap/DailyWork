@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="Generator" content="EditPlus®">
+  <meta name="Author" content="">
+  <meta name="Keywords" content="">
+  <meta name="Description" content="">
+  <title>Document</title>
+<style>
+table{
+margin:auto;
+background:pink;
+color:blue;
+width:275px;
+height:400px;
+border-radius:15px;
+}
+
+input{
+border:10;
+outline:10;
+}
+
+output{
+font-size:18px;
+}
+</style>
+<script>
+function getResult()
+{
+let hm,cm,jm,bm,rm,tot,avg,grd; //local variable
+hm=+html.value;
+cm=+css.value;
+jm=+js.value;
+bm=+bs.value;
+rm=+rct.value;
+tot=hm+cm+jm+bm+rm;
+avg=tot/5;
+if(hm>39 && cm>39 && jm>39 && bm>39 && rm>39)
+{
+grd=avg>89? "A+": avg>79? "A": avg>69? "B+": avg>59? "B": avg>49? "C": avg>39? "D";
+}
+else{
+grd="fail"
+}
+total.value="Total Marks : " + tot;
+average.value="Average Marks : " + avg;
+grade.value="Grade : " + grd;
+}
+
+</script>
+ </head>
+ <body>
+ <table>
+<caption><h3>Student Marks Report</h3></caption>
+<tr>
+<td>Roll No.</td>
+<td><input type="text" id="Rno" autofocus></td>
+</tr>
+
+<tr>
+<td>Name</td>
+<td><input type="text" id="name" ></td>
+</tr>
+
+<tr>
+<td><strong>Marks in:</strong></td>
+</tr>
+
+<tr>
+<td>HTML</td>
+<td><input type="text" id="html"></td>
+</tr>
+
+<tr>
+<td>CSS</td>
+<td><input type="text" id="css" ></td>
+</tr>
+
+<tr>
+<td>Javascript</td>
+<td><input type="text" id="js"></td>
+</tr>
+
+<tr>
+<td>Bootstrap</td>
+<td><input type="text" id="bs"></td>
+</tr>
+
+<tr>
+<td>React</td>
+<td><input type="text" id="rct" ></td>
+</tr>
+<tr align="center">
+<td colspan="2"><button onclick="getResult()">Result</button></td>
+</tr>
+<tr align="center">
+<td colspan="2">
+<output id="total"> </output></br>
+<output id="average"> </output></br>
+<output id="grade"> </output></br>
+</td>
+</tr>
+</table>
+ </body>
+</html>
